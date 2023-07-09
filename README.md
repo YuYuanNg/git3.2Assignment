@@ -3,9 +3,9 @@
 
 For user account secure purpose, certain resources are available in Github is available to be implemented. There are different modes of authentication.
 
--Username and password with two-factor authentication
--Personal access token
--SSH key
+- Username and password with two-factor authentication
+- Personal access token
+- SSH key
 
 Authenticator implemetation methods:
 
