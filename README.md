@@ -60,72 +60,112 @@ git init
 ```
 - initialize an existing directory as a Git repository.
 
-#### *git clone [url]
+```sh
+git clone [url]
+```
 - retrieve an entire repository from a hosted location via URL. 
 
 ### STAGE & SNAPSHOT
 
-#### *git status 
+```sh
+git status
+```
 - show modified files in working directory, staged for your next commit.
 
-#### *git add [file]
+```sh
+git add [file]
+```
 - add a fie as it looks now to your next commit (stage)
 
-#### *git reset [file]
+```sh
+git reset [file]
+```
 - unstage a file while retaining the changes n working directory. 
 
-#### *git diff
+```sh
+git diff
+```
 - diff of what is changed but no staged.
 
-#### *git diff --staged
+```sh
+git diff --staged
+```
 - diff of what is staged but no yet commited.
 
-#### *git commit -m "[descriptive message]"
+```sh
+git commit -m "[descriptive message]"
+```
 - commit your staged content as a new commit snapshot.
 
 ### BRANCH & MERGE
 
-#### *git branch
+```sh
+git branch
+```
 - list your branches. a*will appear next to the currently active branch. 
 
-#### *git branch [branch-name]
+```sh
+git branch [branch-name]
+```
 - create a new branch at the current commit
 
-#### *git checkout
+```sh
+git checkout
+```
 - switch to another branch and check it out ito your working directory.
 
-#### *git merge [branch]
+```sh
+git merge [branch]
+```
 - merge the specified branch's history into the current one. 
 
-#### *git log
+```sh
+git log
+```
 - show all commits in the current branch's history.
 
 ### INSPECT & COMPARE
 
-#### *git log
+```sh
+git log
+```
 - show the commit history for the currently active branch.
 
-#### *git log branchB..branchA
+```sh
+git log branchB..branchA
+```
 - show the commits on branchA that are not on branchB.
 
-#### *git log --follow [file]
+```sh
+git log --follow [file]
+```
 - show the the commits that changed file, even across renames.
 
-#### *git diff branchB...branchA
+```sh
+git diff branchB...branchA
+```
 - show the diff of what is branchA that is not in branchB
 
-#### *git show [SHA]
+```sh
+git show [SHA]
+```
 - show any object in Git in human-readable format.
 
 ### TRACKING PATH CHANGES
 
-#### *git rm [file]
+```sh
+git rm [file]
+```
 - delete the file from project and stage the removal for commit.
 
-#### *git mv [existing-path] [new path]
+```sh
+git mv [existing-path] [new path]
+```
 - change an existing file path and stage the move. 
 
-#### *git log --stat -M
+```sh
+git log --stat -M
+```
 - show all commit logs with indication of any paths that moved.
 
 
