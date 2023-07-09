@@ -45,17 +45,19 @@ Authenticator implemetation methods:
 ### Installation and GUIS
 
 #### GitHub for Windows
-(htps://windows.github.com)
+https://windows.github.com
 
 #### Github for Mac
-(htps://mac.github.com)
+https://mac.github.com
 
 #### Git for All Platforms
-(http://git-scm.com)
+http://git-scm.com
 
 ### SETUP & INIT
 
-#### *git init
+```sh
+git init
+```
 - initialize an existing directory as a Git repository.
 
 #### *git clone [url]
