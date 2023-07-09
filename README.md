@@ -10,7 +10,7 @@ For user account secure purpose, certain resources are available in Github is av
 Authenticator implemetation methods:
 
 -Username and password only
-    -A password is created when registering an account in Github. Github recommends to use a passwod manager to generate a random and unique password. For reference, see "[Creating a strong password] (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-strong-password).
+    -A password is created when registering an account in Github. Github recommends to use a passwod manager to generate a random and unique password. For reference, see [Creating a strong password] (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-strong-password).
 
     -Addtional verification will be implemented whenever new and unrecognised device, for instance, a new broswer profie, a browser where the cookies have been deleted or a new computer.if the users did not set up the 2FA feature.
 
