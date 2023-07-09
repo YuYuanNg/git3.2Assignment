@@ -10,7 +10,7 @@ For user account secure purpose, certain resources are available in Github is av
 Authenticator implemetation methods:
 
 -Username and password only
-    -A password is created when registering an account in Github. Github recommends to use a passwod manager to generate a random and unique password. For reference, see [Creating a strong password] (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-strong-password).
+    -A password is created when registering an account in Github. Github recommends to use a passwod manager to generate a random and unique password. For reference, see [Creating a strong password](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-strong-password)
 
     -Addtional verification will be implemented whenever new and unrecognised device, for instance, a new broswer profie, a browser where the cookies have been deleted or a new computer.if the users did not set up the 2FA feature.
 
@@ -34,7 +34,7 @@ Authenticator implemetation methods:
 -Authenticating with the command line: SSH
     -Upon authenticate with GitHub CLI, the CLI will find the SSH public keys on the machine and prompt out for user to select for upload. 
 
-    -If GitHub CLI does not find the SSH public key for upload, it will generate a newSSH public/.private keypair and upload the public key to the user;s account on GitHub.com. The user then can either authenticating with a personal acess token or via web browser. For more information, see [gh auth login] (https://cli.github.com/manual/gh_auth_login)
+    -If GitHub CLI does not find the SSH public key for upload, it will generate a newSSH public/.private keypair and upload the public key to the user;s account on GitHub.com. The user then can either authenticating with a personal acess token or via web browser. For more information, see [gh auth login](https://cli.github.com/manual/gh_auth_login)
 
     -User have to generate the SSH public/private keypair on the local machine and add the key into the account on GitHub.com. For more information, see [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). 
 
