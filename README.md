@@ -168,4 +168,18 @@ git log --stat -M
 ```
 - show all commit logs with indication of any paths that moved.
 
+### COMMOND USE COMMAND
 
+#### git clone
+- whenever the users are using git bash to run the admendment of the repository, this comment enables users to clone the repository directly from the GitHub webpage into local machine.
+
+#### git status
+- enables the users to understand what is the modified files in the working directory as to decide or arrange which of the files will be committed and pushed to the selected branch. 
+
+#### git commit -m "[descriptive message]"
+- enables the users to leave the changes action message before pushing the changes to the branch. It helps in the trackin commit records. 
+
+#### git branch [branch-name]
+- enables the users to create the sub-branch from the main branch and do the modification before merging back to the main branch. This will not disrupt the operation of the main branch. 
+
+##end
